@@ -1,7 +1,4 @@
-# Frum-et-al.-2022
-Interrogating early alveolar development in the human lung identifies roles for TGFb and BMP signaling.
-
-This analysis contains code for the unpublished manuscript "Interrogating early alveolar development in the human lung identifies roles for TGFb and BMP signaling." -Tristan Frum et al., (2022)
+This analysis contains code for the unpublished manuscript "Opposing roles for TGF and BMP signaling during nascent alveolar differentiation in the developing human lung" -Tristan Frum et al.
 
 About This Repository
 
@@ -9,7 +6,9 @@ This repository contains code for analysis of single cell RNA sequencing data in
 
 Data Availability
 
-Data produced for this unpublished manuscript is currently not available. Other published datasets utilized in this code are available at EMBL-EBI ArrayExpress, Gene Expression Omnibus or Synapse.org: EMBL-EBI ArrayExpress: Single-cell RNA sequencing of human fetal lung (E-MTAB-8221) (Miller et al., 2022) Gene Expression Omnibus: Single-cell RNA sequencing of micro-dissected human distal airways (GSE178360) (Murthy et al., 2022) Synapse.org: Human Lung Cell Atlas (syn21041850) (Travaglini et al., 2020).
+New data produced during this study is available at EMBL-EBI ArrayExpress: Human cananicular stage lung ALI explants (E-MTAB-12959) and human lung organoids (E-MTAB-12960). 
+
+Other published datasets utilized in this code are available at EMBL-EBI ArrayExpress, Gene Expression Omnibus or Synapse.org: EMBL-EBI ArrayExpress: Single-cell RNA sequencing of human fetal lung (E-MTAB-8221) (Miller et al., 2022) Gene Expression Omnibus: Single-cell RNA sequencing of micro-dissected human distal airways (GSE178360) (Murthy et al., 2022) Synapse.org: Human Lung Cell Atlas (syn21041850) (Travaglini et al., 2020).
 
 Datasets, Scripts and Analysis created by
 
