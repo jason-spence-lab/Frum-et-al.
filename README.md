@@ -2,7 +2,7 @@ This analysis contains code for the unpublished manuscript "Opposing roles for T
 
 About This Repository
 
-This repository contains code for analysis of single cell RNA sequencing data in the manuscript refereed to above. Code relevant to each figure is labelled by: #Figure #(a-z) or #Figure S#(a-z) for ease of reference. Major supporting packages include: Seurat, SeuratWrappers, CellChat and Slingshot.
+This repository contains code for analysis of single cell RNA sequencing data in the manuscript refereed to above. Code relevant to each figure is labelled by: #Figure #(a-z) or #Supplementary Figure #(a-z) for ease of reference. Major supporting packages include: Seurat, SeuratWrappers, CellChat and Slingshot.
 
 Data Availability
 
