@@ -1,4 +1,4 @@
-This analysis contains code for the unpublished manuscript "Opposing roles for TGF-beta and BMP signaling during nascent alveolar differentiation in the developing human lung" -Tristan Frum et al.
+This analysis contains code for the manuscript "Opposing roles for TGF-beta and BMP signaling during nascent alveolar differentiation in the developing human lung" available as a preprint on bioRxiv (https://www.biorxiv.org/content/10.1101/2023.05.05.539573v1) -Tristan Frum et al.
 
 About This Repository
 
