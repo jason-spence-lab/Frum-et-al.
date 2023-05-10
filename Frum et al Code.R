@@ -133,36 +133,25 @@ fetal.combined.simplified.renamed.cellchat@netP$pathways
 fetal.combined.simplified.renamed.cellchat <- netAnalysis_computeCentrality(fetal.combined.simplified.renamed.cellchat, slot.name = "netP")
 
 #Figure 1a
-pdf(file.path("./", paste0("Fetal TGFb", ".pdf")), w=6, h=6)
+ppdf(file.path("./", paste0("Fetal TGFb", ".pdf")), w=6, h=6)
 pathways.show <- c("TGFb")
-netVisual_aggregate(fetal.combined.simplified.renamed.cellchat, signaling = pathways.show,  vertex.receiver = vertex.receiver, vertex.label.cex = 0.001, edge.width.max = 20)
+netVisual_aggregate(fetal.combined.simplified.renamed.cellchat, signaling = pathways.show,  vertex.receiver = vertex.receiver, vertex.label.cex = 0.001, arrow.size = 0.5, arrow.width = 2)
 dev.off()
 pdf(file.path("./", paste0("Fetal BMP", ".pdf")), w=6, h=6)
 pathways.show <- c("BMP")
-netVisual_aggregate(fetal.combined.simplified.renamed.cellchat, signaling = pathways.show,  vertex.receiver = vertex.receiver, vertex.label.cex = 0.001)
+netVisual_aggregate(fetal.combined.simplified.renamed.cellchat, signaling = pathways.show,  vertex.receiver = vertex.receiver, vertex.label.cex = 0.001, arrow.size = 0.5,arrow.width = 2)
 dev.off()
 pdf(file.path("./", paste0("Fetal Legend", ".pdf")), w=6, h=6)
 
-netVisual_aggregate(fetal.combined.simplified.renamed.cellchat, signaling = pathways.show,  vertex.receiver = vertex.receiver, vertex.label.cex = 0.001, edge.weight.max = 100)
+netVisual_aggregate(fetal.combined.simplified.renamed.cellchat, signaling = pathways.show,  vertex.receiver = vertex.receiver, vertex.label.cex = 0.001, arrow.size = 0.5,arrow.width = 2)
 dev.off()
 pdf(file.path("./", paste0("Fetal WNT", ".pdf")), w=6, h=6)
 pathways.show <- c("WNT")
-netVisual_aggregate(fetal.combined.simplified.renamed.cellchat, signaling = pathways.show,  vertex.receiver = vertex.receiver,vertex.label.cex = 0.001 )
+netVisual_aggregate(fetal.combined.simplified.renamed.cellchat, signaling = pathways.show,  vertex.receiver = vertex.receiver,vertex.label.cex = 0.001, arrow.size = 0.5,arrow.width = 2)
 dev.off()
 pdf(file.path("./", paste0("Fetal FGF", ".pdf")), w=6, h=6)
 pathways.show <- c("FGF")
-netVisual_aggregate(fetal.combined.simplified.renamed.cellchat, signaling = pathways.show,  vertex.receiver = vertex.receiver, vertex.label.cex = 0.001)
-dev.off()
-
-##Supplementary Figure 1a
-pdf(file.path("./", paste0("Fetal TGFb LR", ".pdf")), w=6, h=6)
-pathways.show <- c("TGFb")
-netAnalysis_contribution(fetal.combined.simplified.renamed.cellchat, signaling = pathways.show, font.size = 14, font.size.title = 16)
-dev.off()
-
-pdf(file.path("./", paste0("Fetal BMP LR", ".pdf")), w=6, h=6)
-pathways.show <- c("BMP")
-netAnalysis_contribution(fetal.combined.simplified.renamed.cellchat, signaling = pathways.show,font.size = 14, font.size.title = 16)
+netVisual_aggregate(fetal.combined.simplified.renamed.cellchat, signaling = pathways.show,  vertex.receiver = vertex.receiver, vertex.label.cex = 0.001, arrow.size = 0.5,arrow.width = 2)
 dev.off()
 
 #Figure 1b 
